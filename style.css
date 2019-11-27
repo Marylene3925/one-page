@@ -1,0 +1,72 @@
+/* variable */
+
+
+body{
+    margin: 0;
+}
+
+
+/* systeme de grille */
+
+
+.container-large{
+    margin: 0;
+    width: 100%;
+}
+
+.container{
+    width: 85%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.row{
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.column-large{
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+
+/* systeme flex */
+
+.f-display{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+
+/* systeme de couleur */
+
+.bg-img{
+    background-image: var();
+}
+
+
+/* systeme d'espace blanc */
+
+.padding-top-large{
+    padding-top: 2.5rem;
+}
+.padding-bottom-large{
+    padding-bottom: 2.5rem;
+}
+
