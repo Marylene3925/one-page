@@ -3,6 +3,7 @@
 :root{
     --third-color:  rgb(139, 139, 139);
     --second-color: rgb(75, 202, 255);
+    --first-color: rgb(255, 255, 255);
 }
 
 body{
@@ -43,11 +44,10 @@ li{
     color: #4bcaff;   
     font-size: 14px;
     border:1px solid #4bcaff;
-    padding:3px;    
+    padding: 5px 10px;    
     text-decoration: none;
     list-style: none;
 }
-
 
 
 .plante{
@@ -87,11 +87,29 @@ li{
 /* partie-3 */
 
 .portfolio{
+    color: rgba(32, 32, 32, 0.6);
+    text-decoration: none; 
+    padding: 5px 10px;
     display: flex;
-    justify-content: flex-start;
-    height: auto;
-    font-size: 1.7em;
 }
+
+.all{
+    color: #4bcaff;   
+    font-size: 14px;
+    border:1px solid #4bcaff;
+    padding: 5px 10px;    
+    text-decoration: none;
+    list-style: none;
+   display: flex;
+}
+
+.column{
+    float: left;
+    width: 100%;
+    padding: 5px;
+    padding: 5px 10px; ;
+}
+
 
 /* systeme de police */
 
@@ -114,24 +132,40 @@ li{
 
 /* systeme flex */
 
-
-.container-portfolio{
+.column1{
     display: flex;
     flex-direction: row;
+    position: absolute;
+    padding-top: 140px;
+}
+
+.column2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-top: 440px;
+}
+
+
+.container-portfolio{
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  justify-content: flex-end;
 
 }
 
 .container-service{
     display: flex;
     flex-direction: row;
-    width: 100%;
+  
 }
 
 .container-nav{
     display: flex;
     flex-direction: row;
-    width: 85%; 
-    justify-content: flex-end;  
+     width: 85%;
+    justify-content: flex-end;      
 }
 
 
@@ -153,8 +187,24 @@ li{
 
 .background-2{
     background-color: #4bcaff;
-    padding: 6% 0;
+    height: 405px;
 }
+
+.background-4{
+    background-color: white;
+    padding: 2%;
+}
+
+.background-3{
+    background-color: white;
+    height: 844px;
+}
+
+.background-5{
+    background-color: rgba(88, 87, 87, 0.5);
+    height: 475px;
+}
+
 
 .partie2{
     color: white;
@@ -167,6 +217,7 @@ li{
 .bg-third{
     background-color: var(--third-color);
     background-color: var(--second-color);
+    background-color: var(--first-color);
 }
 
 
