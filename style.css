@@ -2,6 +2,7 @@
 
 :root{
     --third-color:  rgb(139, 139, 139);
+    --second-color: rgb(75, 202, 255);
 }
 
 body{
@@ -10,6 +11,7 @@ body{
 
 
 /* systeme de grille */
+
 
 .container-large{
     margin: 0;
@@ -24,14 +26,7 @@ body{
     display: flex;
 }
 
-
-
-.family{
-     font-family: segoe UI,bold;
-     font-weight: bold;
-     padding: 5px 10px;
-}
-
+/* partie-1 */
 
 li{
     list-style: none;    
@@ -40,7 +35,8 @@ li{
 
 .menu{    
     color: white;
-    text-decoration: none;     
+    text-decoration: none; 
+    padding: 5px 10px;    
 }
 
 .home{
@@ -54,10 +50,6 @@ li{
 
 
 
-.nav{
-    display: flex;
-}
-
 .plante{
     background: url(image/plante.jpg);
     width: 100%;
@@ -66,26 +58,74 @@ li{
     background-size: cover;    
 }
 
-.background1{
-    background-color: rgba(88, 87, 87, 0.5);
-    padding: 2%;
-}
 
 .title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 42px;
-
+    font-weight: lighter;
     color: white;
     text-align: center;
-    padding: 10%;
+    padding: 15%;
     }
 
     .titre{
-        display: inline;
-        line-height: 160%;
-         background:  rgba(88, 87, 87, 0.5);
+    display: inline;
+    line-height: 160%;
+    background:  rgba(88, 87, 87, 0.5);
+}
+
+/* partie-2 */
+    
+    
+
+.souligne{
+    text-decoration-line: underline;
+    text-underline-position: under;
+}
+
+
+/* partie-3 */
+
+.portfolio{
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    font-size: 1.7em;
+}
+
+/* systeme de police */
+
+.family-3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold; 
+    font-size: 12px;
+}
+
+.family-2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter; 
     }
+
+.family{
+        font-family: segoe UI,bold;
+        font-weight: bold;
+   }
+
 /* systeme flex */
+
+
+.container-portfolio{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container-service{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 
 .container-nav{
     display: flex;
@@ -106,16 +146,30 @@ li{
 
 /* systeme de couleur */
 
+.background-1{
+    background-color: rgba(88, 87, 87, 0.5);
+    padding: 2%;
+}
+
+.background-2{
+    background-color: #4bcaff;
+    padding: 6% 0;
+}
+
+.partie2{
+    color: white;
+}
+
+.partie3{
+   color: rgba(32, 32, 32, 0.6);
+}
+
 .bg-third{
     background-color: var(--third-color);
+    background-color: var(--second-color);
 }
 
 
 .blue{
     color: #4bcaff;
 }
-
-
-/* systeme d'espace blanc *
-
-
