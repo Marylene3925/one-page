@@ -232,6 +232,8 @@ li{
 .background-4{
     background-color: white;
     padding: 2%;
+    width: 1170px;
+    margin: auto;
 }
 
 .background-3{
@@ -244,6 +246,9 @@ li{
     height: 475px;
 }
 
+.row{
+ 
+}
 
 .partie2{
     color: white;
